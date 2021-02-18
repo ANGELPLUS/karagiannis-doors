@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Επικοινωνία</title>
+</head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
-<title>Εικόνες-Πόρτες εξωτερικού χώρου</title>
-</head>
 <body>
-  <nav class="topnav">
+<nav class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
 </nav>
-<h1 align="center">Εικόνες-Πόρτες εξωτερικού χώρου</h1>
+<h1 align="center">Επικοινωνία</h1>
  <nav>
-   <ul id="nav">
+	<ul id="nav">
      <li><a href="C:/Users/apetratos/professional-page/site/index.html">Αρχική</a></li>
-     <li><a href="#">Portofolio</a>
+     <li><a href="C:/Users/apetratos/professional-page/site/index.html">Portofolio</a>
           <ul>
           	<li><a href="C:/Users/apetratos/professional-page/site/ΠΟΡΤΕΣ.html">Πόρτες</a></li>
           	<li><a href="C:/Users/apetratos/professional-page/site/ΠΑΡΑΘΥΡΑ.html">Παράθυρα</a></li>
@@ -27,12 +27,25 @@
      <li><a href="#">Εικόνες</a></li>
      <li><a href="C:/Users/apetratos/professional-page/site/ΕΠΙΚΟΙΝΩΝΙΑ.html">Επικοινωνία</a></li>
    </ul>   
- </nav>
+  </nav>
+  
+  <div class="container">
+  <form action="action_page.php">
 
-<div> 
-	<img src="photos/door.png"><br> </div>
-<div>	
-   <img src="photos/door2.png">
- </div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
 </body>
 </html>
