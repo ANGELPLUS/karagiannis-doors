@@ -189,3 +189,10 @@ input[type=submit] {
   text-decoration: none;
   font-size: 17px;
 }
+
+#showcase {
+	background-image: url('../photos/door.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
